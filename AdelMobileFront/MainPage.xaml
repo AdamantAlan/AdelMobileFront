@@ -4,8 +4,13 @@
              x:Class="AdelMobileFront.MainPage">
 
     <StackLayout BackgroundColor="Aquamarine">
+        <Label x:Name="rubin" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" Text="Rubin" TextColor="Fuchsia"  FontSize="25" FontFamily="New Times Roman" ></Label>
+        <Label x:Name="rubinInfoTitle" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" Text="..." TextColor="Fuchsia"  FontSize="25" FontFamily="New Times Roman" ></Label>
+        <Label x:Name="rubinInfoComments" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" Text="..." TextColor="Fuchsia"  FontSize="25" FontFamily="New Times Roman" ></Label>
+        <Label x:Name="rubinInfoLikes" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" Text="..." TextColor="Fuchsia"  FontSize="25" FontFamily="New Times Roman" ></Label>
 
-        <Label HorizontalOptions="Center" VerticalOptions="Center" Text="Adel2" TextColor="Fuchsia"  FontSize="40"></Label>
+        <Button Text="Получить инфу!" HorizontalOptions="Center" VerticalOptions="End" x:Name="getRubin" BorderWidth="1" BorderRadius="12" Clicked="UpdateRubin"></Button>
+            <ProgressBar ProgressColor="DeepPink" IsVisible="true"  Progress="0.0" x:Name="progress"></ProgressBar>
     </StackLayout>
 
 </ContentPage>

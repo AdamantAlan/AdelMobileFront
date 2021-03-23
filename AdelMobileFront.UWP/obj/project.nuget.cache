@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ygTD1EbgJNyq0ufw6D4r3PWmC9V+SMmh4f78KnFJazbqzK5H4poR6NgnCHkAk1/MlTPCpR+WGQIkgkyBv7PUTA==",
+  "dgSpecHash": "JVMWTabM7YY/wCUa6rNkrVSNFplWRbpELkfPCsMfrGopstiuoemdNdX0xi6Eyvufd3Za7cYJE+aRxyEhcA14iw==",
   "success": true,
   "projectFilePath": "W:\\projects\\AdelMobile\\Debuge\\AdelMobileFront\\AdelMobileFront\\AdelMobileFront.UWP\\AdelMobileFront.UWP.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\Дмитрий\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\6.2.12\\microsoft.netcore.universalwindowsplatform.6.2.12.nupkg.sha512",
     "C:\\Users\\Дмитрий\\.nuget\\packages\\microsoft.ui.xaml\\2.4.3\\microsoft.ui.xaml.2.4.3.nupkg.sha512",
     "C:\\Users\\Дмитрий\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Дмитрий\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Дмитрий\\.nuget\\packages\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform\\6.2.12\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.2.12.nupkg.sha512",
     "C:\\Users\\Дмитрий\\.nuget\\packages\\runtime.win10-arm.microsoft.net.native.compiler\\2.2.10-rel-29722-00\\runtime.win10-arm.microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg.sha512",
     "C:\\Users\\Дмитрий\\.nuget\\packages\\runtime.win10-arm.microsoft.net.native.sharedlibrary\\2.2.8-rel-29722-00\\runtime.win10-arm.microsoft.net.native.sharedlibrary.2.2.8-rel-29722-00.nupkg.sha512",
