@@ -980,7 +980,7 @@
           "buildTransitive/monoandroid50/Xamarin.Google.Guava.ListenableFuture.targets": {}
         }
       },
-      "AdelMobileFront/1.0.0": {
+      "AdelMobile/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -989,10 +989,10 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "bin/placeholder/AdelMobileFront.dll": {}
+          "bin/placeholder/AdelMobile.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AdelMobileFront.dll": {}
+          "bin/placeholder/AdelMobile.dll": {}
         }
       }
     }
@@ -2165,7 +2165,7 @@
         "xamarin.google.guava.listenablefuture.nuspec"
       ]
     },
-    "AdelMobileFront/1.0.0": {
+    "AdelMobile/1.0.0": {
       "type": "project",
       "path": "../AdelMobileFront/AdelMobileFront.csproj",
       "msbuildProject": "../AdelMobileFront/AdelMobileFront.csproj"
@@ -2173,7 +2173,7 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v11.0": [
-      "AdelMobileFront >= 1.0.0",
+      "AdelMobile >= 1.0.0",
       "Newtonsoft.Json >= 13.0.1",
       "Xamarin.Essentials >= 1.6.1",
       "Xamarin.Forms >= 5.0.0.2012"

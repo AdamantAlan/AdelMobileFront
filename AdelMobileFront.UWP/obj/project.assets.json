@@ -383,7 +383,7 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "AdelMobileFront/1.0.0": {
+      "AdelMobile/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -392,10 +392,10 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "bin/placeholder/AdelMobileFront.dll": {}
+          "bin/placeholder/AdelMobile.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AdelMobileFront.dll": {}
+          "bin/placeholder/AdelMobile.dll": {}
         }
       }
     },
@@ -949,7 +949,7 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "AdelMobileFront/1.0.0": {
+      "AdelMobile/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -958,10 +958,10 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "bin/placeholder/AdelMobileFront.dll": {}
+          "bin/placeholder/AdelMobile.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AdelMobileFront.dll": {}
+          "bin/placeholder/AdelMobile.dll": {}
         }
       }
     },
@@ -1516,7 +1516,7 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "AdelMobileFront/1.0.0": {
+      "AdelMobile/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -1525,10 +1525,10 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "bin/placeholder/AdelMobileFront.dll": {}
+          "bin/placeholder/AdelMobile.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AdelMobileFront.dll": {}
+          "bin/placeholder/AdelMobile.dll": {}
         }
       }
     },
@@ -2080,7 +2080,7 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "AdelMobileFront/1.0.0": {
+      "AdelMobile/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -2089,10 +2089,10 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "bin/placeholder/AdelMobileFront.dll": {}
+          "bin/placeholder/AdelMobile.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AdelMobileFront.dll": {}
+          "bin/placeholder/AdelMobile.dll": {}
         }
       }
     },
@@ -2646,7 +2646,7 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "AdelMobileFront/1.0.0": {
+      "AdelMobile/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -2655,10 +2655,10 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "bin/placeholder/AdelMobileFront.dll": {}
+          "bin/placeholder/AdelMobile.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AdelMobileFront.dll": {}
+          "bin/placeholder/AdelMobile.dll": {}
         }
       }
     },
@@ -3213,7 +3213,7 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "AdelMobileFront/1.0.0": {
+      "AdelMobile/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -3222,10 +3222,10 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "bin/placeholder/AdelMobileFront.dll": {}
+          "bin/placeholder/AdelMobile.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AdelMobileFront.dll": {}
+          "bin/placeholder/AdelMobile.dll": {}
         }
       }
     },
@@ -3779,7 +3779,7 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "AdelMobileFront/1.0.0": {
+      "AdelMobile/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -3788,10 +3788,10 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "bin/placeholder/AdelMobileFront.dll": {}
+          "bin/placeholder/AdelMobile.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AdelMobileFront.dll": {}
+          "bin/placeholder/AdelMobile.dll": {}
         }
       }
     },
@@ -4346,7 +4346,7 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "AdelMobileFront/1.0.0": {
+      "AdelMobile/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -4355,10 +4355,10 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "bin/placeholder/AdelMobileFront.dll": {}
+          "bin/placeholder/AdelMobile.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AdelMobileFront.dll": {}
+          "bin/placeholder/AdelMobile.dll": {}
         }
       }
     }
@@ -9145,7 +9145,7 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "AdelMobileFront/1.0.0": {
+    "AdelMobile/1.0.0": {
       "type": "project",
       "path": "../AdelMobileFront/AdelMobileFront.csproj",
       "msbuildProject": "../AdelMobileFront/AdelMobileFront.csproj"
@@ -9153,7 +9153,7 @@
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.16299": [
-      "AdelMobileFront >= 1.0.0",
+      "AdelMobile >= 1.0.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.12",
       "Newtonsoft.Json >= 13.0.1",
       "Xamarin.Essentials >= 1.6.1",

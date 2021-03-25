@@ -11,12 +11,13 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("AdelMobileFront")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Myagkow")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Клиент для парсера")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("AdelMobileFront")]
-[assembly: System.Reflection.AssemblyTitleAttribute("AdelMobileFront")]
+[assembly: System.Reflection.AssemblyProductAttribute("AdelMobile")]
+[assembly: System.Reflection.AssemblyTitleAttribute("AdelMobile")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.

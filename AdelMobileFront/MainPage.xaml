@@ -2,15 +2,50 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AdelMobileFront.MainPage">
+    <ScrollView>
+    <StackLayout>
+        <Label x:Name="author" HorizontalOptions="Center" VerticalOptions="Start" Text="Адель Кауф" FontSize="25" FontFamily="New Times Roman" ></Label>
+        <Label x:Name="biblio" HorizontalOptions="Center" VerticalOptions="Start" Text="Библиография" FontSize="22" FontFamily="New Times Roman" ></Label>
+            <ProgressBar ProgressColor="LightGreen" IsVisible="true"  Progress="0.0" x:Name="progress" Margin="20,0,20,0" HeightRequest="25"></ProgressBar>
 
-    <StackLayout BackgroundColor="Aquamarine">
-        <Label x:Name="rubin" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" Text="Rubin" TextColor="Fuchsia"  FontSize="25" FontFamily="New Times Roman" ></Label>
-        <Label x:Name="rubinInfoTitle" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" Text="..." TextColor="Fuchsia"  FontSize="25" FontFamily="New Times Roman" ></Label>
-        <Label x:Name="rubinInfoComments" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" Text="..." TextColor="Fuchsia"  FontSize="25" FontFamily="New Times Roman" ></Label>
-        <Label x:Name="rubinInfoLikes" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" Text="..." TextColor="Fuchsia"  FontSize="25" FontFamily="New Times Roman" ></Label>
+            <Frame BackgroundColor="Aquamarine" HorizontalOptions="Center">
+                <StackLayout>
+                    <Label x:Name="woolInfoTitle" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Text=""   FontSize="25" FontFamily="New Times Roman" ></Label>
+                    <Label x:Name="woolInfoComments" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Text="Коменты: "  FontSize="25" FontFamily="New Times Roman" ></Label>
+                    <Label x:Name="woolInfoLikes" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Text="Лайки: "  FontSize="25" FontFamily="New Times Roman" ></Label>
+                    </StackLayout>
+            </Frame>
 
-        <Button Text="Получить инфу!" HorizontalOptions="Center" VerticalOptions="End" x:Name="getRubin" BorderWidth="1" BorderRadius="12" Clicked="UpdateRubin"></Button>
-            <ProgressBar ProgressColor="DeepPink" IsVisible="true"  Progress="0.0" x:Name="progress"></ProgressBar>
+            <Frame BackgroundColor="Aquamarine" HorizontalOptions="Center">
+                <StackLayout>
+                    <Label x:Name="prayerInfoTitle" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Text=""  FontSize="25" FontFamily="New Times Roman" ></Label>
+                    <Label x:Name="prayerInfoComments" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Text="Коменты: "  FontSize="25" FontFamily="New Times Roman" ></Label>
+                    <Label x:Name="prayerInfoLikes" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Text="Лайки: "  FontSize="25" FontFamily="New Times Roman" ></Label>
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="Aquamarine" HorizontalOptions="Center">
+                <StackLayout>
+
+
+                    <Label x:Name="portraitInfoTitle" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Text=""  FontSize="25" FontFamily="New Times Roman" ></Label>
+                    <Label x:Name="portraitInfoComments" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Text="Коменты: "  FontSize="25" FontFamily="New Times Roman" ></Label>
+                    <Label x:Name="portraitInfoLikes" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Text="Лайки: "  FontSize="25" FontFamily="New Times Roman" ></Label>
+
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="Aquamarine" HorizontalOptions="Center">
+                <StackLayout>
+
+                    <Label x:Name="rubinInfoTitle" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Text=""  FontSize="25" FontFamily="New Times Roman" ></Label>
+                    <Label x:Name="rubinInfoComments" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Text="Коменты: "  FontSize="25" FontFamily="New Times Roman" ></Label>
+                    <Label x:Name="rubinInfoLikes" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Text="Лайки: "  FontSize="25" FontFamily="New Times Roman" ></Label>
+                </StackLayout>
+            </Frame>
+
+            <Button Text="Обновить" HorizontalOptions="Center" VerticalOptions="End" x:Name="getRubin" BorderWidth="1" BorderRadius="12" Clicked="UpdateMainPage"></Button>
+            
     </StackLayout>
-
+    </ScrollView>
 </ContentPage>

@@ -21,9 +21,7 @@ W:\projects\AdelMobile\Debuge\AdelMobileFront\AdelMobileFront\AdelMobileFront.UW
 W:\projects\AdelMobile\Debuge\AdelMobileFront\AdelMobileFront\AdelMobileFront.UWP\bin\x86\Debug\Xamarin.Forms.Platform.dll
 W:\projects\AdelMobile\Debuge\AdelMobileFront\AdelMobileFront\AdelMobileFront.UWP\bin\x86\Debug\Xamarin.Forms.Xaml.dll
 W:\projects\AdelMobile\Debuge\AdelMobileFront\AdelMobileFront\AdelMobileFront.UWP\bin\x86\Debug\Xamarin.Forms.Xaml.pdb
-W:\projects\AdelMobile\Debuge\AdelMobileFront\AdelMobileFront\AdelMobileFront.UWP\bin\x86\Debug\AdelMobileFront.dll
 W:\projects\AdelMobile\Debuge\AdelMobileFront\AdelMobileFront\AdelMobileFront.UWP\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
-W:\projects\AdelMobile\Debuge\AdelMobileFront\AdelMobileFront\AdelMobileFront.UWP\bin\x86\Debug\AdelMobileFront.pdb
 W:\projects\AdelMobile\Debuge\AdelMobileFront\AdelMobileFront\AdelMobileFront.UWP\obj\x86\Debug\AdelMobileFront.UWP.csprojAssemblyReference.cache
 W:\projects\AdelMobile\Debuge\AdelMobileFront\AdelMobileFront\AdelMobileFront.UWP\obj\x86\Debug\App.g.i.cs
 W:\projects\AdelMobile\Debuge\AdelMobileFront\AdelMobileFront\AdelMobileFront.UWP\obj\x86\Debug\App.g.cs
@@ -62,3 +60,5 @@ W:\projects\AdelMobile\Debuge\AdelMobileFront\AdelMobileFront\AdelMobileFront.UW
 W:\projects\AdelMobile\Debuge\AdelMobileFront\AdelMobileFront\AdelMobileFront.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636160535180000000.json
 W:\projects\AdelMobile\Debuge\AdelMobileFront\AdelMobileFront\AdelMobileFront.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424635200000000.json
 W:\projects\AdelMobile\Debuge\AdelMobileFront\AdelMobileFront\AdelMobileFront.UWP\bin\x86\Debug\Newtonsoft.Json.dll
+W:\projects\AdelMobile\Debuge\AdelMobileFront\AdelMobileFront\AdelMobileFront.UWP\bin\x86\Debug\AdelMobile.dll
+W:\projects\AdelMobile\Debuge\AdelMobileFront\AdelMobileFront\AdelMobileFront.UWP\bin\x86\Debug\AdelMobile.pdb
