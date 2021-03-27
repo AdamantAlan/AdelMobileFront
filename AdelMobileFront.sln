@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdelMobileFront.UWP", "Adel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdelMobileFront.Android", "AdelMobileFront.Android\AdelMobileFront.Android.csproj", "{45FE78A0-893B-4294-8370-2EFF7C99279E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdelMobileFront", "AdelMobileFront\AdelMobileFront.csproj", "{80E10473-5990-46C2-B097-B61C30D1255B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdelMobileFront", "AdelMobileFront\AdelMobileFront.csproj", "{80E10473-5990-46C2-B097-B61C30D1255B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

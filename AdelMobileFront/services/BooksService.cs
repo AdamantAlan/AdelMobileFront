@@ -9,10 +9,11 @@ using AdelMobileFront.Dtos;
 using Newtonsoft.Json;
 namespace AdelMobileFront.services
 {
-    class BooksService
+  static  class BooksService
     {
-        internal async Task<T> GetBookAsync<T>() where T: class
+        internal static async  Task<T> GetBookAsync<T>() where T: class
         {
+            try { 
             using (HttpClientHandler handler = new HttpClientHandler())
             {
                 using (HttpClient client = new HttpClient(handler))
@@ -27,26 +28,38 @@ namespace AdelMobileFront.services
                     }
                 }
             }
-        }
-        internal async Task<Dictionary<string, BookDto>> GetAllBookAsync() 
-        {
-            using (HttpClientHandler handler = new HttpClientHandler())
+
+            } catch (AggregateException exs)
             {
-                using (HttpClient client = new HttpClient(handler))
+                    return null;
+            }
+        }
+        internal static async Task<Dictionary<string, BookDto>> GetAllBookAsync() 
+        {
+            try
+            {
+                using (HttpClientHandler handler = new HttpClientHandler())
                 {
-                    using (HttpResponseMessage response = await client.GetAsync("http://adamantalan-001-site1.gtempurl.com/api/v1/ficbook/all/get"))
+                    using (HttpClient client = new HttpClient(handler))
                     {
-                        var bookJson = await response.Content.ReadAsStringAsync();
-                        if (string.IsNullOrEmpty(bookJson))
-                            return null;
-                        Dictionary<string, BookDto> books = JsonConvert.DeserializeObject<Dictionary<string, BookDto>>(bookJson);
-                        return books;
+                        using (HttpResponseMessage response = await client.GetAsync("http://adamantalan-001-site1.gtempurl.com/api/v1/ficbook/all/get"))
+                        {
+                            var bookJson = await response.Content.ReadAsStringAsync();
+                            if (string.IsNullOrEmpty(bookJson))
+                                return null;
+                            Dictionary<string, BookDto> books = JsonConvert.DeserializeObject<Dictionary<string, BookDto>>(bookJson);
+                            return books;
+                        }
                     }
                 }
             }
+            catch (AggregateException exs)
+            {
+                return null;
+            }
         }
 
-        private string UriApiGetOfBook<T>()
+        private static string UriApiGetOfBook<T>()
         {
             if (typeof(T).Name is "Rubin")
                 return "http://adamantalan-001-site1.gtempurl.com/api/v1/ficbook/rubin/get";

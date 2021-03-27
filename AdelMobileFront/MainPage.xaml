@@ -5,9 +5,8 @@
     <ScrollView>
     <StackLayout>
         <Label x:Name="author" HorizontalOptions="Center" VerticalOptions="Start" Text="Адель Кауф" FontSize="25" FontFamily="New Times Roman" ></Label>
-        <Label x:Name="biblio" HorizontalOptions="Center" VerticalOptions="Start" Text="Библиография" FontSize="22" FontFamily="New Times Roman" ></Label>
-            <ProgressBar ProgressColor="LightGreen" IsVisible="true"  Progress="0.0" x:Name="progress" Margin="20,0,20,0" HeightRequest="25"></ProgressBar>
-
+            <Label x:Name="biblio" HorizontalOptions="Center" VerticalOptions="Start" Text="Библиография" FontSize="22" FontFamily="New Times Roman" ></Label>
+            <ActivityIndicator Color="LightBlue" IsRunning="false" x:Name="Spiner"></ActivityIndicator>
             <Frame BackgroundColor="Aquamarine" HorizontalOptions="Center">
                 <StackLayout>
                     <Label x:Name="woolInfoTitle" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Text=""   FontSize="25" FontFamily="New Times Roman" ></Label>
