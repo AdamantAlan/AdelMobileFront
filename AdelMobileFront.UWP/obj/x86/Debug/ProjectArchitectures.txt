@@ -1,1 +1,0 @@
-W:\projects\AdelMobile\Debuge\AdelMobileFront\AdelMobileFront\AdelMobileFront.UWP\AdelMobileFront.UWP.csproj;x86
