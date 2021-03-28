@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using AdelMobileFront.services;
 using AdelMobileFront.Dtos;
 using Xamarin.Forms;
+using AdelMobileFront.services.ViewModel;
 
 namespace AdelMobileFront
 {
@@ -16,55 +17,15 @@ namespace AdelMobileFront
         public  MainPage()
         {
             InitializeComponent();
-            GetInfoAboutBooks();
+            InitAsync();
         }
-        internal async void GetInfoAboutBooks()
+        private async Task InitAsync()
         {
             Spiner.IsRunning = true;
-            await getInfoAboutBooks();
+            Spiner.IsVisible = true;
+            this.BindingContext = new MainPageViewModel(await BooksService.GetAllBookAsync());
             Spiner.IsRunning = false;
-        }
-            private async Task getInfoAboutBooks()
-        {
-            var all = await  BooksService.GetAllBookAsync();
-            if (all == null)
-                await DisplayAlert( "Ошибка", "Не могу получить информацию о книгах!",  "Закрыть");
-            else
-            foreach (var i in all)
-            {
-                if(i.Key == "Rubin")
-                {
-                    rubinInfoTitle.Text += " " + i.Value.Title;
-                    rubinInfoComments.Text += " " + i.Value.Comments;
-                    rubinInfoLikes.Text += " " + i.Value.Likes;
-                }
-                if (i.Key == "Wool")
-                {
-                    woolInfoTitle.Text += " " + i.Value.Title;
-                    woolInfoComments.Text += " " + i.Value.Comments;
-                    woolInfoLikes.Text += " " + i.Value.Likes;
-                }
-                if (i.Key == "Prayer")
-                {
-                    prayerInfoTitle.Text += " " + i.Value.Title;
-                    prayerInfoComments.Text += " " + i.Value.Comments;
-                    prayerInfoLikes.Text += " " + i.Value.Likes;
-                }
-                if (i.Key == "Portrait")
-                {
-                    portraitInfoTitle.Text += " " + i.Value.Title;
-                    portraitInfoComments.Text += " " + i.Value.Comments;
-                    portraitInfoLikes.Text += " " + i.Value.Likes;
-                }
-            }
-        }
-
-        private void UpdateMainPage(object sender, EventArgs e)
-        {
-            Refresh();
-            Spiner.IsRunning = true;
-            GetInfoAboutBooks();
-            Spiner.IsRunning = false;
+            Spiner.IsVisible =false;
         }
         private void Refresh()
         {
@@ -80,6 +41,11 @@ namespace AdelMobileFront
             portraitInfoTitle.Text = " ";
             portraitInfoComments.Text = "Коменты: ";
             portraitInfoLikes.Text = "Лайки: ";
+        }
+
+        private void Exit(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.GetCurrentProcess().Kill();
         }
     }
 }

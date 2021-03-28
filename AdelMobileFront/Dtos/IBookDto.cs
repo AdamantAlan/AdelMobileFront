@@ -18,25 +18,25 @@ namespace AdelMobileFront.Dtos
         public int Likes { get; set; }
     }
     //MODELS
-   internal class Wool : IBookDto
+   internal class Wool : BookDto
     {
         public string Title { get; set; }
         public int Comments { get; set; }
         public int Likes { get; set; }
     }
-    internal class Prayer : IBookDto
+    internal class Prayer : BookDto
     {
         public string Title { get; set; }
         public int Comments { get; set; }
         public int Likes { get; set; }
     }
-    internal class Portrait : IBookDto
+    internal class Portrait : BookDto
     {
         public string Title { get; set; }
         public int Comments { get; set; }
         public int Likes { get; set; }
     }
-    internal class Rubin : IBookDto
+    internal class Rubin : BookDto
     {
         public string Title { get; set; }
         public int Comments { get; set; }
