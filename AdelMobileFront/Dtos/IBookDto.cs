@@ -20,26 +20,18 @@ namespace AdelMobileFront.Dtos
     //MODELS
    internal class Wool : BookDto
     {
-        public string Title { get; set; }
-        public int Comments { get; set; }
-        public int Likes { get; set; }
+     
     }
     internal class Prayer : BookDto
     {
-        public string Title { get; set; }
-        public int Comments { get; set; }
-        public int Likes { get; set; }
+       
     }
     internal class Portrait : BookDto
     {
-        public string Title { get; set; }
-        public int Comments { get; set; }
-        public int Likes { get; set; }
+      
     }
     internal class Rubin : BookDto
     {
-        public string Title { get; set; }
-        public int Comments { get; set; }
-        public int Likes { get; set; }
+    
     }
 }

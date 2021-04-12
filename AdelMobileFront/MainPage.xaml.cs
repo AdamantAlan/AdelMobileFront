@@ -9,12 +9,15 @@ using AdelMobileFront.services;
 using AdelMobileFront.Dtos;
 using Xamarin.Forms;
 using AdelMobileFront.services.ViewModel;
+using Xamarin.Essentials;
 
 namespace AdelMobileFront
 {
+   
+
     public partial class MainPage : ContentPage
     {
-        public  MainPage()
+        public MainPage()
         {
             InitializeComponent();
             InitAsync();
@@ -42,10 +45,29 @@ namespace AdelMobileFront
             portraitInfoComments.Text = "Коменты: ";
             portraitInfoLikes.Text = "Лайки: ";
         }
-
+        public async void RedirectToSite(object sender, EventArgs e)
+        {
+            try
+            {
+                if(sender == woolInfoTitle)
+                await Browser.OpenAsync("https://ficbook.net/readfic/10463740", BrowserLaunchMode.SystemPreferred);
+                if (sender == prayerInfoTitle)
+                    await Browser.OpenAsync("https://ficbook.net/readfic/10063965", BrowserLaunchMode.SystemPreferred);
+                if (sender == portraitInfoTitle)
+                    await Browser.OpenAsync("https://ficbook.net/readfic/10340100", BrowserLaunchMode.SystemPreferred);
+                if (sender == rubinInfoTitle)
+                    await Browser.OpenAsync("https://ficbook.net/readfic/9838377", BrowserLaunchMode.SystemPreferred);
+            }
+            catch (Exception ex)
+            {
+                // An unexpected error occured. No browser may be installed on the device.
+            }
+        }
+        
         private void Exit(object sender, EventArgs e)
         {
             System.Diagnostics.Process.GetCurrentProcess().Kill();
         }
+
     }
 }

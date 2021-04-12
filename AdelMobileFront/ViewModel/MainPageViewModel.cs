@@ -6,6 +6,9 @@ using AdelMobileFront.Dtos;
 using AdelMobileFront.services;
 using System.Threading.Tasks;
 using System.Threading;
+using Xamarin.Forms;
+using System.Windows.Input;
+using Xamarin.Essentials;
 
 namespace AdelMobileFront.services.ViewModel
 {
